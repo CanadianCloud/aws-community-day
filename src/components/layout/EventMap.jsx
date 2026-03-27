@@ -106,7 +106,7 @@ export default function EventMap() {
   const legendItems = LEGEND_ITEMS_BY_FLOOR[selectedFloor] ?? [];
 
   return (
-    <div className='mt-14 py-12 md:py-16'>
+    <div className='mt-14 pt-8 pb-12 md:pt-16 md:pb-16'>
       <div className='container mx-auto px-4 md:px-6 lg:px-8 max-w-6xl'>
         <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[48px] font-heroDate font-extrabold leading-none text-text-primary text-center mb-6 md:mb-12'>
           Event Map
@@ -121,7 +121,7 @@ export default function EventMap() {
             <button
               type='button'
               onClick={() => setSelectedFloor(2)}
-              className={`px-3 py-1.5 text-xs font-semibold transition-colors md:px-6 md:py-3 ${
+              className={`px-3 py-1.5 text-sm md:text-base font-semibold transition-colors md:px-6 md:py-3 ${
                 selectedFloor === 2
                   ? 'bg-[#FF9900] text-white'
                   : 'bg-white text-[#333E48] hover:bg-[#FFF3E0]'
@@ -131,7 +131,7 @@ export default function EventMap() {
             <button
               type='button'
               onClick={() => setSelectedFloor(5)}
-              className={`px-3 py-1.5 text-xs font-semibold transition-colors md:px-6 md:py-3 ${
+              className={`px-3 py-1.5 text-sm md:text-base font-semibold transition-colors md:px-6 md:py-3 ${
                 selectedFloor === 5
                   ? 'bg-[#FF9900] text-white'
                   : 'bg-white text-[#333E48] hover:bg-[#FFF3E0]'
@@ -167,18 +167,18 @@ export default function EventMap() {
             {legendItems.map((item) => (
               <div
                 key={`${item.title}-${item.note ?? ''}`}
-                className='flex items-start gap-3 bg-white rounded-lg p-3'>
+                className='flex items-start gap-1.5 md:gap-3 bg-white rounded-lg p-1.5 md:p-3'>
                 <img
                   src={item.iconSrc}
                   alt={item.title}
-                  className='w-10 h-10 object-contain flex-shrink-0'
+                  className='w-7 h-7 md:w-10 md:h-10 object-contain flex-shrink-0'
                 />
                 <div className='min-w-0'>
-                  <p className='text-sm font-semibold text-[#333E48] leading-tight'>
+                  <p className='text-[11px] md:text-sm font-semibold text-[#333E48] leading-tight'>
                     {item.title}
                   </p>
                   {item.note && (
-                    <p className='text-xs text-gray-500 leading-tight mt-1'>
+                    <p className='text-[10px] md:text-xs text-gray-500 leading-tight mt-0.5 md:mt-1'>
                       {item.note}
                     </p>
                   )}
