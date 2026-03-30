@@ -1,5 +1,4 @@
 import { currentSponsors } from "@/lib/sponsorsConstants"
-import Image from "next/image"
 
 export function CurrentSponsors() {
     return (
