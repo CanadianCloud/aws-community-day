@@ -22,24 +22,19 @@ export default function Hero() {
 
         <div>
           <h2 className="text-4xl md:text-6xl lg:text-8xl  font-heroDate font-extrabold mb-3 leading-none text-text-primary">
-            EARLY BIRDS TICKETS AVAILABLE!
+            Join the Community for a Packed Event
           </h2>
         </div>
         <div className="relative z-20 px-1 max-w-8xl mx-auto pt-4 md:pt-8 pb-6">
           {/* Save The Date */}
           <p className="text-lg md:text-2xl lg:text-[32px] font-heroDate font-extrabold mb-2 tracking-normal text-text-primary leading-tight">
-            SAVE THE DATE
+            In Collaboration with Cloud Summit
           </p>
 
           {/* Main Date */}
           <h1 className="text-4xl md:text-4xl lg:text-6xl font-heroDate font-extrabold mb-3 leading-none text-text-primary">
             MAY 1, 2026
           </h1>
-
-          {/* Location */}
-          <p className="text-base md:text-xl lg:text-2xl xl:text-[32px] mb-4 font-heroRegular font-normal text-text-primary max-w-4xl mx-auto leading-relaxed lg:leading-[64px]">
-            @ SCIENCE WORLD
-          </p>
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-6">
