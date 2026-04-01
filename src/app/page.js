@@ -52,8 +52,11 @@ function HomeCity() {
         <Activities />
         {!isToronto && <NewSchedule />}
         <HackerRivals />
-        <Charity />
+
+        <Charity city={city} />
+
         <CurrentSponsors></CurrentSponsors>
+
         <Sponsors />
         <NonProfit showCpca={true}>{!isToronto && <EventMap />}</NonProfit>
       </main>
