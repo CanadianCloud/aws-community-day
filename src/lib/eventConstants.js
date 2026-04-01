@@ -56,8 +56,8 @@ export const AWS_EVENT_CONFIG = {
       motto: 'By the community, for the community',
       cta: {
         type: 'phase1',
-        descrp: 'Interested in Joining the Committee or Volunteering for AWS Community Day',
-        button: 'Learn More About Committee and Volunteer Opportunities',
+        descrp: 'Interested in volunteering for AWS Community Day',
+        button: 'Learn More about Volunteer Opportunities',
         link: 'https://tally.so/r/waPdMy',
       },
     },
@@ -186,13 +186,18 @@ export const AWS_EVENT_CONFIG = {
           external: true,
         },
         {
-          name: 'Committee and Volunteers',
+          name: 'Become a Volunteer',
           href: 'https://tally.so/r/waPdMy',
           external: true,
         },
         {
           name: 'Become a Sponsor',
           href: 'https://tally.so/r/mR6zPQ',
+          external: true,
+        },
+        {
+          name: 'Call for Speakers',
+          href: 'https://tally.so/r/rjBeN5',
           external: true,
         },
         {
@@ -232,15 +237,23 @@ export const AWS_EVENT_CONFIG = {
           },
         },
         {
-          name: 'Committee and Volunteers',
+          name: 'Committee',
           href: '#',
           external: false,
           modalContent: {
-            title: 'AWS Community Day 2025 - Committee and Volunteers',
+            title: 'AWS Community Day 2026',
             body: [],
             committee: [
               {
-                name: 'Fabio Simka',
+                name: 'Andrey Barkov',
+                linkedin: 'https://www.linkedin.com/in/andreybarkov/',
+              },
+              {
+                name: 'Bibi Souza',
+                linkedin: 'https://www.linkedin.com/in/bibschan/',
+              },
+              {
+                name: 'Fabio Simka Coutinho',
                 linkedin: 'https://www.linkedin.com/in/fabio-simka/',
               },
               {
@@ -248,28 +261,29 @@ export const AWS_EVENT_CONFIG = {
                 linkedin: 'https://www.linkedin.com/in/fstoelting/',
               },
               {
-                name: 'Jackie Ho',
-                linkedin: 'https://www.linkedin.com/in/jackiehyho/',
-              },
-              {
-                name: 'Jhan Silva',
+                name: 'Jhan (Shanky) Silva',
                 linkedin: 'https://www.linkedin.com/in/shankyjs/',
-              },
-              {
-                name: 'Liam Huntley',
-                linkedin: 'https://www.linkedin.com/in/liam-huntley/',
               },
               {
                 name: 'Matt Carolan',
                 linkedin: 'https://www.linkedin.com/in/matthewcarolan/',
               },
               {
-                name: 'Sophia Chan',
-                linkedin: 'https://www.linkedin.com/in/sophia-gy-chan/',
+                name: 'Michael Carlos',
+                linkedin: 'https://www.linkedin.com/in/mcarlos/',
               },
               {
-                name: 'Umer Khalid',
-                linkedin: 'https://www.linkedin.com/in/umerkhalid1/',
+                name: 'Nichanun Pong (Luck)',
+                linkedin: 'https://www.linkedin.com/in/nichanun-pong/',
+              },
+              {
+                name: 'Philip Mak',
+                linkedin:
+                  'https://www.linkedin.com/in/philip-mak-b2b92823a/',
+              },
+              {
+                name: 'Warren Lyne',
+                linkedin: 'https://www.linkedin.com/in/warrenlyne/',
               },
             ],
             volunteers: [
@@ -393,49 +407,48 @@ export const AWS_EVENT_CONFIG = {
       },
       {
         image: '/team/Fabio.png',
-        title: 'Fabio Simka',
-        href: '',
+        title: 'Fabio Simka Coutinho',
+        href: 'https://www.linkedin.com/in/fabio-simka/',
       },
       {
         image: '/team/Fernando.png',
-        title: 'Fernando Suarez',
-        href: '',
-      },
-      {
-        image: '/team/Jackie.png',
-        title: 'Jackie Ho',
-        href: 'https://www.linkedin.com/in/jackiehyho/',
-      },
-      {
-        image: '/team/Liam.png',
-        title: 'Liam',
-        href: '',
+        title: 'Fernando Stoelting',
+        href: 'https://www.linkedin.com/in/fstoelting/',
       },
       {
         image: '/team/Matt.png',
         title: 'Matt Carolan',
         href: 'https://www.linkedin.com/in/matthewcarolan/',
       },
-
-      {
-        image: '/team/Nat.png',
-        title: 'Nataliya Hromova',
-        href: 'https://www.linkedin.com/in/mikehoff321/',
-      },
       {
         image: '/team/Shanky.png',
-        title: 'Shanky Silva',
+        title: 'Jhan (Shanky) Silva',
         href: 'https://www.linkedin.com/in/shankyjs/',
       },
       {
-        image: '/team/Sophia.png',
-        title: 'Sophia Chan',
-        href: 'https://github.com/Sophia-G-Chan',
+        image: '',
+        title: 'Andrey Barkov',
+        href: 'https://www.linkedin.com/in/andreybarkov/',
       },
       {
-        image: '/team/Umer.png',
-        title: 'Umer Khalid',
-        href: 'https://www.linkedin.com/in/umerkhalid1/',
+        image: '',
+        title: 'Warren Lyne',
+        href: 'https://www.linkedin.com/in/warrenlyne/',
+      },
+      {
+        image: '',
+        title: 'Michael Carlos',
+        href: 'https://www.linkedin.com/in/mcarlos/',
+      },
+      {
+        image: '',
+        title: 'Nichanun Pong (Luck)',
+        href: 'https://www.linkedin.com/in/nichanun-pong/',
+      },
+      {
+        image: '',
+        title: 'Philip Mak',
+        href: 'https://www.linkedin.com/in/philip-mak-b2b92823a/',
       },
     ],
     volunteers: [
