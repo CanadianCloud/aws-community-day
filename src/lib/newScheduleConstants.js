@@ -44,7 +44,7 @@ export const newSchedule = [
     startTime: "4:50 PM",
     endTime: "5:30 PM",
     activities: [
-      "Main Stage Session 4 - 10min break after",
+      "Main Stage Session 4 - 10 min break after",
       "Community Stage Session 3 - Panel (Women Shaping the Future of Cloud & AI)",
     ],
     primaryLineCount: 2,
