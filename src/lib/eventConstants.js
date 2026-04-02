@@ -465,22 +465,19 @@ export const AWS_EVENT_CONFIG = {
         team: 'webAndDesign',
       },
     ],
-    webMembers: [
+    /** Shown in footer as: Website by Nichanun (Luck), Zack, Ahmad — link optional per name */
+    websiteCredits: [
       {
-        name: 'Bibi',
-        link: 'https://github.com/bibschan',
-        type: 'software engineer',
-      },
-      { name: 'Jackie', link: 'https://jackieho.ca/', type: 'designer' },
-      {
-        name: 'Luis',
-        link: 'https://github.com/luisher98',
-        type: 'software engineer',
+        name: 'Nichanun (Luck)',
+        link: 'https://www.linkedin.com/in/nichanun-pong/',
       },
       {
-        name: 'Sophia',
-        link: 'https://github.com/Sophia-G-Chan',
-        type: 'software engineer',
+        name: 'Zack',
+        link: 'https://www.linkedin.com/in/viet-anh-hoang-a504911b1/',
+      },
+      {
+        name: 'Ahmad',
+        link: 'https://www.linkedin.com/in/ahmad-salempoor/',
       },
     ],
   },
@@ -520,7 +517,7 @@ export function getCharitySectionContent(city) {
   return {
     paragraphs: [
       'This event is 100% community-run and focused. No organizers are paid, and no organizers profit in any way from the event. We are proud to support local charities in each city, with a shared goal of raising $10,000.',
-      'Our Vancouver charity partner is Union Gospel Mission (UGM). UGM provides meals, education, shelter, safe and affordable housing, recovery programs, and support services for individuals experiencing homelessness and addiction in Metro Vancouver and Mission. In 2025, the Vancouver community successfully raised $10,000 for UGM.',
+      'Our Vancouver charity partner is Union Gospel Mission (UGM). UGM provides meals, education, shelter, safe and affordable housing, recovery programs, and support services for individuals experiencing homelessness and addiction in Metro Vancouver and Mission. In 2025, Cloud Summit successfully raised $10,000 for UGM.',
     ],
     logoSrc: '/charity/unionGospelMission.svg',
     logoAlt: 'Union Gospel Mission Logo',
