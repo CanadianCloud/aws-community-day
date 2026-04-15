@@ -55,7 +55,7 @@ export const currentSponsors = [
   },
   {
     name: 'Northeastern University',
-    logo: '/sponsors/Northeastern_University_Logo.png',
+    logo: '/sponsors/NEU-white.png',
     alt: 'Northeastern University logo',
     website: 'https://www.northeastern.edu/',
   },
